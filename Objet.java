@@ -1,8 +1,13 @@
 package com.codewithanas;
 
 public class Objet {
+
     private int valeur;
     private int poids;
+
+    public Objet() {
+        super();
+    }
 
     public Objet(int valeur, int poids) {
         this.valeur = valeur;
